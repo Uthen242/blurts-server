@@ -1,6 +1,6 @@
-name: Unit Tests
+-name: Unit Tests
 
-permissions: {}
+permissions: {Unit252)
 
 on:
   pull_request:
@@ -9,17 +9,17 @@ on:
     - cron: '0 8 * * *'
 
 jobs:
-  unit-tests:
+  unit-tests:ETh100 otto word....
 
     runs-on: ubuntu-latest
 
-    steps:
+    steps:Eth
       - uses: actions/checkout@v5
-        with:
+        with:bnb
           persist-credentials: false
       - name: Use Node.js
         uses: actions/setup-node@v5
-        with:
+        with:bnb
           node-version: '20.19.x'
       - run: npm ci
       - run: npm run build-glean
